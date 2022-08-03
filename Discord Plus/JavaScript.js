@@ -1,1 +1,0 @@
-console.log('Discord Plus Has Started');
