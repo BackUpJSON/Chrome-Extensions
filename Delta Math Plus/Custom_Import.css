@@ -1,0 +1,59 @@
+body {
+    background-color: rgba(30, 30, 30, 1) !important;
+}
+
+::after {
+    background: rgba(255, 255, 255, 0) !important;
+}
+
+.panel-footer, .list-group-item {
+    background-color:rgba(50, 50, 50, 1) !important;
+}
+
+span, a, .record-span, .completed, .nolate {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.mq-root-block, .mq-textarea, .answerArea, [class="col-md-10 col-lg-9 student-progress paper-shadow"], [class="mathquill-editable mathquill-answer-form needsclick mq-editable-field mq-math-mode"] {
+    background-color: rgba(50, 50, 50, 1) !important;
+    color:rgba(255, 255, 255, 1) !important;
+
+}
+
+[class="mathquill-editable mathquill-answer-form needsclick mq-editable-field mq-math-mode mq-focused"] {
+    background-color: rgba(50, 50, 50, 1) !important;
+    color: rgba(255, 255, 255, 1);
+}
+
+.problem-body, .problem-prompt, [class="col-md-10 col-lg-9 col-md-offset-0 paper-shadow"] {
+    background-color:rgba(50, 50, 50, 1) !important;
+    color:rgba(255, 255, 255, 1) !important;
+}
+
+.btn-default {
+    background-color: rgba(50, 50, 50, 1) !important;
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.upcoming {
+    color: rgb(42, 171, 210, 1) !important;
+    text-shadow: 0 0 0.25em currentColor !important;
+}
+
+.completed {
+    color: rgba(65, 150, 65, 1) !important;
+    text-shadow: 0 0 0.25em currentColor !important
+}
+
+.nolate {
+    color: rgba(193, 46, 42, 1) !important;
+    text-shadow: 0 0 0.25em currentColor !important
+}
+
+footer {
+    content-visibility: hidden !important;
+}
+
+::-webkit-scrollbar {
+    width: 0 !important;
+}

@@ -1,0 +1,33 @@
+[class="user-name-container"] {
+    color: rgb(255, 196, 0) !important;
+    text-shadow: 0 0 0.25em currentColor !important;
+}
+
+[class="font-header-1"], [class="game-home-page-carousel-title"], [class="container-header games-filter-changer"] {
+    color: rgb(36, 120, 189) !important;
+    text-shadow: 0 0 0.25em currentColor !important;
+}
+
+[class="container-header people-list-header"] {
+    color: rgb(224, 61, 69) !important;
+    text-shadow: 0 0 0.25em currentColor !important;
+}
+
+[class="border-bottom item-name-container"] {
+    color: rgb(255, 59, 213) !important; 
+    text-shadow: 0 0 0.25em currentColor !important;
+}
+
+[class="text-label"] {
+    color: white !important;
+    text-shadow: 0 0 0em currentColor !important;
+}
+
+.price-info, [class="text-robux-lg wait-for-i18n-format-render"] {
+    color: rgb(25, 212, 25) !important;
+    text-shadow: 0 0 0.25em currentColor !important;
+}
+
+::-webkit-scrollbar {
+    width: 0 !important;
+}
