@@ -1,0 +1,69 @@
+body {
+    background-color: rgba(30, 30, 30, 1) !important;
+}
+
+::after {
+    background: rgba(255, 255, 255, 0) !important;
+}
+
+.panel-footer, .list-group-item {
+    background-color:rgba(50, 50, 50, 1) !important;
+}
+
+span, a, .record-span, .completed, .nolate, [class='row center-word-or'], h4 {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+[class="mathquill-editable mq-editable-field mq-math-mode"], [class="mathquill-editable mq-editable-field mq-math-mode mq-focused"] {
+    background: transparent !important;
+}
+
+[class='form-control ng-untouched ng-pristine ng-valid'], [class='form-control ng-pristine ng-valid ng-touched'], [class='form-control ng-valid ng-touched ng-dirty'], [class="form-control ng-valid ng-dirty ng-touched"] {
+    border: none !important;
+    color: rgba(255, 255, 255, 1) !important;
+    background: rgba(50, 50, 50, 1) !important;
+}
+
+.mq-root-block, .mq-textarea, .answerArea, [class="rmd-card__header rmd-card__header--center teamCard-text"], [class='rmd-card__title teamCard-text-name'], [class="col-md-10 col-lg-9 student-progress paper-shadow"], [class="mathquill-editable mathquill-answer-form needsclick mq-editable-field mq-math-mode"], [class="rmd-card__content rmd-card__content--padded rmd-card__content--extra-padding rmd-card__content--remove-margin rmd-card__content--secondary"] {
+    background-color: rgba(50, 50, 50, 1) !important;
+    color:rgba(255, 255, 255, 1) !important;
+
+}
+
+.modal-content, [class="mathquill-editable mathquill-answer-form needsclick mq-editable-field mq-math-mode mq-focused"] {
+    background-color: rgba(50, 50, 50, 1) !important;
+    color: rgba(255, 255, 255, 1);
+}
+
+.problem-body, .problem-prompt, [class="col-md-10 col-lg-9 col-md-offset-0 paper-shadow"] {
+    background-color:rgba(50, 50, 50, 1) !important;
+    color:rgba(255, 255, 255, 1) !important;
+}
+
+.btn-default {
+    background-color: rgba(50, 50, 50, 1) !important;
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.upcoming {
+    color: rgb(42, 171, 210, 1) !important;
+    text-shadow: 0 0 0.25em currentColor !important;
+}
+
+.completed {
+    color: rgba(65, 150, 65, 1) !important;
+    text-shadow: 0 0 0.25em currentColor !important
+}
+
+.nolate {
+    color: rgba(193, 46, 42, 1) !important;
+    text-shadow: 0 0 0.25em currentColor !important
+}
+
+footer {
+    content-visibility: hidden !important;
+}
+
+::-webkit-scrollbar {
+    width: 0 !important;
+}

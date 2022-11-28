@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Delta Math Plus",
+  "version": "1.0",
+  "description": "Imports a custom css file to the Delta Math website.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.deltamath.com/*"],
+      "js": ["JavaScript.js"],
+      "css": ["Custom_Import.css"]
+    }
+  ]
+}

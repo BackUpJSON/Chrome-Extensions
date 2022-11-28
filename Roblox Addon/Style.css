@@ -1,0 +1,42 @@
+.text-name, div[class~="profile-display-name"] {
+    color: rgba(255, 196, 0, 1) !important;
+    text-shadow: 0 0 0.25em currentColor !important;
+}
+
+[class="font-header-1"], [class="game-home-page-carousel-title"], [class="container-header games-filter-changer"] {
+    color: rgba(36, 120, 189, 1) !important;
+    text-shadow: 0 0 0.25em currentColor !important;
+}
+
+[class="container-header people-list-header"] {
+    color: rgba(224, 61, 69, 1) !important;
+    text-shadow: 0 0 0.25em currentColor !important;
+}
+
+[class="border-bottom item-name-container"] {
+    color: rgba(255, 59, 213, 1) !important; 
+    text-shadow: 0 0 0.25em currentColor !important;
+}
+
+[class="text-label"] {
+    color: rgba(255, 255, 255, 1) !important;
+    text-shadow: 0 0 0em currentColor !important;
+}
+
+.price-info, [class="text-robux-lg wait-for-i18n-format-render"], [class="rbx-text-navbar-right text-header"] {
+    color: rgba(25, 212, 25, 1) !important;
+    text-shadow: 0 0 0.25em currentColor !important;
+}
+
+span[class~="font-header-2"] {
+    color: rgba(255, 255, 255, 1) !important;
+    text-shadow: none !important;
+}
+
+.banner-container, .alert-container {
+    display: none !important;
+}
+
+::-webkit-scrollbar {
+    width: 0 !important;
+}
